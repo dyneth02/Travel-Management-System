@@ -1,0 +1,103 @@
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    z-index: 50;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    width:200px;
+    height: 40px;
+    user-select: none;
+    padding: 0;
+    margin-right: 400px;
+    margin-left: 50px;
+    margin-top: 0;
+    
+}
+.navigation a{
+    position:relative;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform-origin: center;
+    transform: scaleX(0.85);
+}
+.navigation .bntRegister-popup{
+    width: 110px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight:500;
+    transition: .5s;
+   
+}
+.navigation .bntRegister-popup:hover{
+    background: #5f5f75;
+    color: #000000;
+}
+.navigation .bntLogin-popup{
+    width: 110px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight:500;
+}
+.navigation .bntLogin-popup:hover{
+    background: #5f5f75;
+    color: #000000;
+}
+.active {
+    background-color: #717171;
+  }
+.activenavi {
+    background: transparent;
+  background-color: #92929776;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
