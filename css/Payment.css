@@ -1,0 +1,100 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(../images/Pay.jpg);
+
+  }
+
+.col-85 {
+    width: 600px;
+   }
+
+.col-65 {
+   width: 200px;
+  }
+
+.container {
+    margin-left: 425px;
+    margin-right: 425px;
+    margin-bottom: 50px;
+  background-color: #d5e8f7;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: rgb(22, 68, 158);
+  color: white;
+  padding: 12px;
+  margin: 10px 132px;
+  border: none;
+  width: 60%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: rgb(39, 112, 222);
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
