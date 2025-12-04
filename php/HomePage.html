@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Home</title>
+
+  <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/Footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" type="text/css" href="../CSS/Navi.css">
+</head>
+<body>
+    <header>
+      <img src="../images/logo.png" class ="logo "alt="logo">
+        <nav class="navigation">
+            <a href="HomePage.html" class="activenavi">Home</a>
+            <a href="../../Sabri/contact/index.php">Contact Us</a>
+            <a href="../../Malitha/package/boat.html">Packages</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="../../Sabri/register.php"><button class="bntRegister-popup">Register</button></a>
+            <a href="../../Sabri/login.php"><button class="bntLogin-popup">Login</button></a>
+        </nav>
+	</header>
+    <div class="slideshow_container">
+        <div class="mySlides fade">
+            <div class="text_slide"><b>Escape the ordinary and immerse yourself in the beauty of nature</b></div>
+          <img src="../images/BoatSafari1.jpg" alt="boat1">
+        </div>
+      
+        <div class="mySlides fade">
+            <div class="text_slide"><b>Embark on a thrilling adventure as you explore untamed waters</b></div>
+          <img src="../images/Slide2.jpg" alt="wider2">
+        </div>
+      
+        <div class="mySlides fade">
+            <div class="text_slide"><b>Get up close and personal with exotic wildlife while cruising along rivers and lakes</b></div>
+          <img src="../images/Slide3.jpg" alt="wider3">
+        </div>
+    </div>      
+	<br>
+    <div style="text-align: center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <button class="open-button" onclick="openForm()">Message Us</button>
+
+      <div class="form-popup" id="myForm">
+        <form action="addMessage.php" class="form-container" method="post">
+          <h1>Chat</h1>
+      
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required id="msgarea"></textarea>
+      
+          <input type="submit" class="btn" value="Send">
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+     
+      <div>
+        <footer>
+          <div class="footer">
+            <div class="row">
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+              </div>
+          <div class="row2">
+          <ul>
+          <li><a href="../../Sabri/contact/index.php">Contact us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="../../Sandali/T&C.html">Terms & Conditions</a></li>
+          <li><a href="../../Hiruni/FAQ/faq.php">FAQ</a></li>
+          </ul>
+          </div>
+          
+          <div class="row">
+          Blue Waterways Copyright © 2021 Inferno - All rights reserved || Designed By: Dasun
+          </div>
+          </div>
+          </footer>
+      </div>
+      
+      <script src="../JS/Slide.js"></script>
+</body>
+</html>
