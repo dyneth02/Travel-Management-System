@@ -1,0 +1,45 @@
+body{
+   
+    background-image:url(../user/image01.jpg);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10%;
+    /* background-color: aquamarine; */
+    
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #9c9191e7;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+span{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    
+}
+
+.input{
+    width: 400px;
+    height: 30px;
+    margin: 10px 0 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+
+
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+
+}
+#back{
+    float: right;
+}
