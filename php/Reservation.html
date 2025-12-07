@@ -1,0 +1,148 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservation </title>
+  <link rel="stylesheet"  href="new1.css">
+  <link rel="stylesheet"  href="Navi.css">
+  <link rel="stylesheet"  href="Footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+<header>
+      <img src="logo.png" class ="logo "alt="logo">
+        <nav class="navigation">
+            <a href="../Dasun/HTML/HomePage.html">Home</a>
+            <a href="../Sabri/contact/index.php">Contact Us</a>
+            <a href="../Malitha/package/boat.html">Packages</a>
+            <a href="../Dasun/HTML/AboutUs.html">About Us</a>
+            <a href="../Sabri/register.php"><button class="bntRegister-popup">Register</button></a>
+            <a href="../Sabri/login.php"><button class="bntLogin-popup">Login</button></a>
+        </nav>
+	</header>
+  <h1>BOOK NOW RIDE LATER </h1>
+
+  <form action = "action.php" method ="POST" autocomplete = "off">
+    <div class="form-group">
+      <label for="location">Location:</label>
+      <select id="location" name="location">
+	  <option value="Balapitiya">Balapitiya</option>
+      <option value="Nuwara  Eliya">Nuwara  Eliya</option>
+      <option value="Gampaha">Gampaha</option>
+      <option value="Matara">Matara</option>
+        
+    </select><br><br>
+    </div>
+            
+
+    <div class="form-group">
+        <label for="package">Package:</label>
+		<select id="package" name="package">
+		<option value="Sight-seeing">Sight-seeing</option>
+        <option value="Island Adventure">Island Adventure</option>
+        <option value="Sunset Cruise">Sunset Cruise</option>
+        <option value="Snorkeling Expedition">Snorkeling Expedition</option>
+	    <option value="Fishing Trip">Fishing Trip</option>
+    
+    </select><br><br>
+    </div>
+	
+	<div class="form-group">
+	    <label for="boat">Choose a boat type:</label>
+        <select name="boat" id="boat">
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+	    <option value="Large">Large</option>
+    </select><br><br>
+	</div>
+	
+    <div class="form-group">
+         <label for="guide">Choose a Tour guide:</label>
+		
+         <select name="guide" id="guide">
+         <option value="English">English</option>
+         <option value="French">French</option>
+	     <option value="Spanish">Spanish</option>
+	     <option value="German">German</option>
+         <option value="Italian">Italian</option>
+	     <option value="Multi-Languages">Multi-Languages</option>
+         <option value="Without Tour guide">Without Tour guide</option>
+		 
+    </select>
+    <br><br>
+	</div>
+  
+   <div class="form-group">
+        <label for="noAdults">Number of adults:</label>
+        <input type="text" id="noAdults" name="noAdults" required><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="nochild">Number of children:</label>
+        <input type="text" id="nochild" name="nochild" required><br><br>
+    </div>
+  
+
+    <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+    </div>
+	
+    <div class="form-group">
+        <label for="phoneNo">Phone No:</label>
+        <input type="text" id="phoneNo" name="phoneNo" required><br><br>
+    </div>
+	
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+    </div>
+	
+	
+    
+    <div class="form-group">
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+    </div>
+ 
+    
+	
+    <button type="submit">Book Now</button>
+ </form>
+ <div>
+        <footer>
+          <div class="footer">
+            <div class="row">
+              <a href="https://web.facebook.com/"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+              </div>
+          <div class="row2">
+          <ul>
+          <li><a href="../Sabri/contact/index.php">Contact us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="../Sandali/T&C.html">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+          </ul>
+          </div>
+          
+          <div class="row">
+          Blue Waterways Copyright © 2021 Inferno - All rights reserved || Designed By: Dasun
+          </div>
+          </div>
+          </footer>
+      </div>
+    
+</body>
+</html>
